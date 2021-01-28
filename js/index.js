@@ -42,5 +42,4 @@ let output;
 
 output = `My name is ${firstName} ${lastName}. You can contact me at ${email}`;
 
-console.log(output);
-
+alert(output);
