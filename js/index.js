@@ -1,3 +1,5 @@
+
+
 let a = 3;
 let b = 5;
 let c;
@@ -16,7 +18,6 @@ value += 'a - b = ' + (a - b) + '\n';
 value += 'a * b = ' + (a * b) + '\n';
 value += 'a / b = ' + (a / b) + '\n';
 value += 'a % b = ' + (a % b) + '\n';
-
 value += 'a += b = ' + (a += b) + '\n';
 value += 'a -= b = ' + (a -= b) + '\n';
 value += 'a *= b = ' + (a *= b) + '\n';
@@ -24,13 +25,10 @@ value += 'a /= b = ' + (a /= b) + '\n';
 value += 'a %= b = ' + (a %= b) + '\n';
 value += 'a == b : ' + (a == b) + '\n';
 value += 'a != b : ' + (a != b) + '\n';
-
 value += 'a > b : ' + (a > b) + '\n';
 value += 'a < b : ' + (a < b) + '\n';
-
 value += '!a && !c : ' + (!a && !c) + '\n';
 value += '!a || !c : ' + (!a || !c) + '\n';
-
 alert(value);
 
 
@@ -42,5 +40,6 @@ let email = 'ayou0076@algonquinlive.com';
 let output;
 
 output = `My name is ${firstName} ${lastName}. You can contact me at ${email}`;
+
 alert(output);
 
