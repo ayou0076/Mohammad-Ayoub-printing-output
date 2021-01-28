@@ -34,6 +34,7 @@ value += '!a || !c : ' + (!a || !c) + '\n';
 alert(value);
 
 
+
 let firstName = 'Mohammad';
 let lastName = 'Ayoub';
 let email = 'ayou0076@algonquinlive.com';
@@ -41,5 +42,5 @@ let email = 'ayou0076@algonquinlive.com';
 let output;
 
 output = `My name is ${firstName} ${lastName}. You can contact me at ${email}`;
-
 alert(output);
+
